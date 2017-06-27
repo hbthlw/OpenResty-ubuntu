@@ -15,7 +15,6 @@ docker run \
   --rm \
   -e "RESTY_ENV=production" \
   -e "DEBUG=server" \
-  -u "node" \
   -m "300M" \
   --memory-swap "1G" \
   -p "5002:80" \

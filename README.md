@@ -4,7 +4,9 @@
 # How to use
  绑定目录，绑定端口进行使用
  将工作目录绑定至容器中的/usr/src/app 将开放端口绑定至容器的80端口
+ 
  如：docker run --rm -t -i --volume="$(pwd):/usr/src/app" -p 3015:80 hbthlw/openresty-ubuntu
+ 
  示例与参考：https://openresty.org/cn/getting-started.html
 # More
 ```
